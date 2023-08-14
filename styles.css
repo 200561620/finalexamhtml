@@ -1,0 +1,160 @@
+header img {
+    width: 100px;
+    height: auto; 
+}
+
+.section {
+    background-image: url('img1.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 300px;
+    text-align: center;
+    flex: 1;
+    padding: 20px; 
+    box-sizing: border-box; 
+    height: 33.33vh;
+}
+
+
+.container {
+    width: 100%; 
+    display: flex; 
+}
+
+#search-form {
+    display: flex;
+    align-items: right;
+}
+
+#search-input {
+    padding: 5px;
+    border: none;
+}
+
+#search-button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+}
+
+.image-collage {
+    background-color: #f57f17;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 00px;
+}
+
+.image-collage img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color:  #f57f17;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #125784;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-container {     
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-container {
+    background-color: purple; /* Set form background color to purple */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+select {
+    height: 35px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+.contact {
+    background-color:#5e35b1  ; 
+    padding: 50px;
+    text-align: justify;
+    color: white;
+}
